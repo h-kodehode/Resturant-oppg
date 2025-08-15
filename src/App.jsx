@@ -25,8 +25,8 @@ function App() {
       <h2 className="text-xl bg-pink-300 p-3 mb-5 tracking-wide">Dessert</h2>
       <MenuList retter={desserter} />
 
-      {/* Bajgrunnsbilde */}
-      <div className="h-96 w-3xl bg-[url('/food.jpg')] bg-blend-multiply bg-cover bg-center"></div>
+      {/* Bakgrunnsbilde */}
+      <div className="mb-14 h-96 w-3xl bg-[url('/food.jpg')] bg-blend-multiply bg-cover bg-center"></div>
 
       <FooterComponent />
     </>
