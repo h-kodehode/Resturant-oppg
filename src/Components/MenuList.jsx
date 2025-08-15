@@ -1,15 +1,13 @@
-// import MenuData from "../../menuData/MenuData";
+import Dish from "./Dish";
 
-export default function MenuList({ id, tittel, pris, ingredienser, kategori }) {
+export default function MenuList({ retter }) {
   return (
     <>
-      <section>
-        <span>{id}</span>
-        {/* <h1>{kategori}</h1> */}
-        <h3>{tittel}</h3>
-        <p>{ingredienser}</p>
-        <span>{pris}</span>
-      </section>
+      <div>
+        {retter.map((rett) => (
+          <Dish {...rett} />
+        ))}
+      </div>
     </>
   );
 }
