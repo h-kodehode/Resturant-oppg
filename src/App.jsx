@@ -1,7 +1,7 @@
 import { menuData } from "../menuData/MenuData";
 import "./App.css";
+import FooterComponent from "./Components/FooterComponent";
 import MenuList from "./Components/MenuList";
-import Dish from "./Components/Dish";
 
 function App() {
   const hentKategori = (kategori) =>
@@ -27,6 +27,8 @@ function App() {
 
       {/* Bajgrunnsbilde */}
       <div className="h-96 w-3xl bg-[url('/food.jpg')] bg-blend-multiply bg-cover bg-center"></div>
+
+      <FooterComponent />
     </>
   );
 }
