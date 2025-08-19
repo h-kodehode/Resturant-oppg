@@ -13,7 +13,8 @@ function App() {
 
   return (
     <>
-      <h1 className="text-5xl font-bold mb-10 tracking-wide">Meny</h1>
+      <h1 className="text-7xl font-bold mb-10">Meny</h1>
+
       <h2 className=" font-bold text-xl bg-pink-300 p-3 mb-5 tracking-wide">
         Forrett
       </h2>
